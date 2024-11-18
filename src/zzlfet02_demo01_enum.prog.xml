@@ -15,6 +15,42 @@
      <ENTRY>Demo Entscheidungstabellen LF-ET Globale Objekte</ENTRY>
      <LENGTH>48</LENGTH>
     </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_LEGAL</KEY>
+     <ENTRY>Rechtl. Rahmenbedingungen</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_PSIZE</KEY>
+     <ENTRY>Projektumfang</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_RESTXT</KEY>
+     <ENTRY>Ergebnistext</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_RESULT</KEY>
+     <ENTRY>Ergebniswert</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_RSSRC</KEY>
+     <ENTRY>Ressourcenabhängigkeit</ENTRY>
+     <LENGTH>30</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_RULE</KEY>
+     <ENTRY>Verwendete Regel</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
    </TPOOL>
   </asx:values>
  </asx:abap>

@@ -45,6 +45,7 @@ CLASS zcl_lfet02_model_risikoanalyse IMPLEMENTATION.
   METHOD zif_lfet02_model_risikoanalyse~is_projektumfang.
     IF values-projektumfang IS INITIAL.
       " Implement your customer code here
+      values-projektumfang = zcl_lfet02_enum_risiko_18=>enum_calc_projektumfang( 4 ).
     ELSE.
       result = values-projektumfang.
     ENDIF.
@@ -53,9 +54,16 @@ CLASS zcl_lfet02_model_risikoanalyse IMPLEMENTATION.
   METHOD zif_lfet02_model_risikoanalyse~is_rechtl_rahmenbedingungen.
     IF values-rechtl_rahmenbedingung IS INITIAL.
       " Implement your customer code here
+
     ELSE.
-      result = values-rechtl_rahmenbedingung.
+*      result = values-rechtl_rahmenbedingung.
     ENDIF.
+
+    IF values-rechtl_rahmenbedingung = input.
+      result = abap_true.
+    ENDIF.
+
+
   ENDMETHOD.
 
   METHOD zif_lfet02_model_risikoanalyse~is_ressourcen_abhaengigkeit.
