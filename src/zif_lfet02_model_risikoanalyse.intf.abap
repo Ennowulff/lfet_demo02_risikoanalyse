@@ -67,10 +67,8 @@ INTERFACE zif_lfet02_model_risikoanalyse
       i_value TYPE _projektumfang.
 
   METHODS is_rechtl_rahmenbedingungen
-    IMPORTING
-      input type _rechtl_rahmenbedingung
     RETURNING
-      VALUE(result) TYPE abap_bool.
+      VALUE(result) TYPE _rechtl_rahmenbedingung.
 
   METHODS is_ressourcen_abhaengigkeit
     RETURNING
