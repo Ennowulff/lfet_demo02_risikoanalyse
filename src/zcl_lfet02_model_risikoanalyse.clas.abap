@@ -45,7 +45,7 @@ CLASS zcl_lfet02_model_risikoanalyse IMPLEMENTATION.
   METHOD zif_lfet02_model_risikoanalyse~is_projektumfang.
     IF values-projektumfang IS INITIAL.
       " Implement your customer code here
-      values-projektumfang = zcl_lfet02_enum_risiko_18=>enum_calc_projektumfang( 4 ).
+*      values-projektumfang = zcl_lfet02_enum_risiko_18=>enum_calc_projektumfang( 4 ).
     ELSE.
       result = values-projektumfang.
     ENDIF.
